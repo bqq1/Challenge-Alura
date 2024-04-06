@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-imagem">
+            <img src="./src/imagens/pikachu-logoo.png" alt="Pokemon Pikachu">
+        </div>
+    </header>
+    <main class="conteudo">
+        <section class="conteudo1">
+            <textarea id="textoInicial" placeholder="Digite seu texto"></textarea>
+            <div class="conteudo-footer">
+                <div class="icone">
+                    <img src="./src/imagens/alerta-icone.svg" alt="Ícone de alerta">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="botoes">
+                    <button id="criptografar"class="criptografar">Criptografar</button>
+                    <button id="descriptografar" class="descriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <section id="conteudo2" class="conteudo2">
+            <img id="imagem" class="imagem" src="./src/imagens/Pikachu-logo-D0AAA93F17-seeklogo.com.png" alt="Pikachu Detetive">
+            <div class="conteudo2-texto">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <p id="textoInfo" class="textoInfo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <button id="copiar" class="copiar">Copiar</button>
+        </section>
+    </main>
+    <script src="./src/js/javascript.js"></script>
+</body>
+</html>

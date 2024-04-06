@@ -1,0 +1,28 @@
+@media  (max-width: 770px) {
+    .conteudo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 75% auto;
+        width: auto;
+        margin: auto 40px;
+    }
+
+    .conteudo2 {
+        height: 100%;
+    }
+
+    .botoes {
+        justify-content: center;
+    }
+
+    .criptografar, .descriptografar {
+        width: 45%;
+    }
+
+    .conteudo2 img {
+        display: none;
+        height: 50%;
+    }
+
+
+}
